@@ -1,5 +1,3 @@
-const check = require('../utils/check');
-
 module.exports = {
   create: ({ chatUuid, text }) => {
     return {
