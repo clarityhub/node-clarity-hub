@@ -1,0 +1,44 @@
+{
+  "name": "node-clarity-hub",
+  "private": false,
+  "version": "0.0.1",
+  "description": "Clarity Hub SDK for Node.js",
+  "keywords": ["clarity hub", "sdk", "node", "api", "customer service"],
+  "homepage": "https://clarityhub.io",
+  "bugs": {
+    "url": "https://github.com/clarityhub/node-clarity-hub/issues",
+    "email": "support@clarityhub.io"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Clarity Hub, Inc",
+    "email": "support@clarityhub.io",
+    "url": "https://github.com/clarityhub"
+  },
+  "files": [
+    "src"
+  ],
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clarityhub/node-clarity-hub.git"
+  },
+  "scripts": {
+    "test": "export NODE_ENV=test && mocha --timeout 10000 ./runner.js tests/*.js tests/*/**.js"
+  },
+  "devDependencies": {
+    "bluebird": "^3.5.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "mockery": "^2.1.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "peerDependencies": {
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "engines": {
+    "node": ">=6.12.0"
+  }
+}
