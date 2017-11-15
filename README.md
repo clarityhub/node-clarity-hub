@@ -2,7 +2,7 @@
 
 [![NPM](https://nodei.co/npm/node-clarity-hub.png)](https://nodei.co/npm/node-clarity-hub/)
 
-[![CircleCI](https://circleci.com/gh/clarityhub/node-clarity-hub/tree/master.png)](https://circleci.com/gh/clarityhub/node-clarity-hub/tree/master)
+[![CircleCI](https://circleci.com/gh/clarityhub/node-clarity-hub/tree/master.svg?style=svg&circle-token=bb12ad3dce1b089d3cfec99839a2bbd0eda5b322)](https://circleci.com/gh/clarityhub/node-clarity-hub/tree/master)
 
 The official Clarity Hub SDK for Node.JS. For Node.JS versions >= 6.12.0.
 
