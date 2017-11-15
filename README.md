@@ -12,6 +12,14 @@ yarn add node-clarity-hub
 npm install --save node-clarity-hub
 ```
 
+This package uses `request` and `request-promise` as well:
+
+```
+yarn add request request-promise
+# or
+npm install --save request request-promise
+```
+
 ## Usage
 
 ```js
@@ -31,7 +39,7 @@ client.chatMessages.create({
 
 ## Currently Supported Endpoints
 
-```js
+```
 client
 ├── chatMessages
 |   ├── create({ chatUuid, text })
