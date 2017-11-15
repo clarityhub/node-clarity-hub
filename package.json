@@ -1,7 +1,7 @@
 {
   "name": "node-clarity-hub",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Clarity Hub SDK for Node.js",
   "keywords": ["clarity hub", "sdk", "node", "api", "customer service"],
   "homepage": "https://clarityhub.io",
