@@ -48,9 +48,11 @@ client
 |   └── compose({ chatUuid, text })
 ├── integrationSettings
 |   └── update({ integrationUuid, settings })
-└── suggestions
-    ├── create({ messageUuid, chatUuid, suggestions })
-    └── delete({ suggestionUuid })
+├── suggestions
+|   ├── create({ messageUuid, chatUuid, suggestions })
+|   └── delete({ suggestionUuid })
+├── usersMe
+    └── read()
 ```
 
 ## License
