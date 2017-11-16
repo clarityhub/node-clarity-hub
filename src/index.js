@@ -29,7 +29,7 @@ class ClarityHub {
       method: params.method,
       json: true,
       qs: qs(this.asUser),
-      headers: {
+      headers: params.headers ? params.headers(this) : {
         'access-token': this.accessToken,
         'User-Agent': 'node-clarity-hub',
       },

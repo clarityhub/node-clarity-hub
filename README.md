@@ -27,6 +27,14 @@ npm install --save request request-promise
 ```js
 const ClarityHub = require('node-clarity-hub');
 
+// Doing the Oauth handshake
+const response = new ClarityHub().oauth.activate({
+  code,
+  clientId,
+  clientSecret,
+});
+
+// Making a request
 const client = new ClarityHub({
   accessToken,
   // Optional:
@@ -48,6 +56,8 @@ client
 |   └── compose({ chatUuid, text })
 ├── integrationSettings
 |   └── update({ integrationUuid, settings })
+├── oauth
+|   └── activate({ code, clientId, clientSecret })
 ├── suggestions
 |   ├── create({ messageUuid, chatUuid, suggestions })
 |   └── delete({ suggestionUuid })
