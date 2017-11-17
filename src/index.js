@@ -17,7 +17,7 @@ const innerHandler = (outerTarget) => ({
 });
 
 class ClarityHub {
-  constructor({ accessToken, url, asUser }) {
+  constructor({ accessToken, url, asUser } = {}) {
     this.accessToken = accessToken;
     this.url = url || 'https://api.clarityhub.io';
     this.asUser = asUser || false;
